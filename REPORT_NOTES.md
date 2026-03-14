@@ -441,8 +441,51 @@ The Office results show several strong indicators of learned structure:
 
 ### Cross-model comparison — same seed, both models
 
-Both models were given the identical seed `"You have to trust me.\n"` at τ=0.5 to test
-whether each model diverges into its own learned register.
+Both models were given the identical seed `"You have to trust me.\n"` at two temperatures
+to show the effect of temperature on coherence AND the register divergence between models.
+
+#### τ = 0.8 (more creative, noisier)
+
+**GoT model:**
+```
+You have to trust me.
+
+ROOSE:
+What about it?
+
+BRIENNE:
+It is fighting to see the bad thing. But we thought she would be paid to me,
+I'd like to have to go.
+
+TYRION LANNISTER:
+I know you ever get used to this way. Bavos and send it for their woman is one
+of our things that makes me say I was a serious part. The man who killed them
+who remess the walkers in the north. We're not your children, they're all the
+king to me.
+```
+
+**The Office model:**
+```
+You have to trust me.
+
+ANDY:
+Five dates Alloh man, he can pass a lot of real song I stay.
+
+MICHAEL:
+Hey guys if there's it. Yeah, "Well, that's the heavy survived.
+
+PAM:
+Oh yeah. Oh. I think he was so funny.
+
+DWIGHT:
+Attention Lady. And I have to get up with our sales is the bear for you.
+```
+
+At τ=0.8 the outputs are more creative but less coherent — individual words are plausible
+but sentences break down mid-way. Reducing temperature to 0.5 improves grammatical
+tightness at the cost of some diversity.
+
+#### τ = 0.5 (more conservative, tighter)
 
 **GoT model output:**
 ```
