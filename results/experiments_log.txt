@@ -359,3 +359,1431 @@ Running 216 configurations × 5 epochs each…
   epoch 2/5  train=3.1144  val=2.9381  ppl=18.9
   epoch 3/5  train=2.8124  val=2.6923  ppl=14.8
   epoch 4/5  train=2.5900  val=2.4850  ppl=12.0
+  epoch 5/5  train=2.4197  val=2.3472  ppl=10.5
+  → val_loss=2.3437  val_ppl=10.4
+
+[46/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5437  val=4.5361  ppl=93.3
+  epoch 2/5  train=4.5282  val=4.5211  ppl=91.9
+  epoch 3/5  train=4.5130  val=4.5065  ppl=90.6
+  epoch 4/5  train=4.4976  val=4.4916  ppl=89.3
+  epoch 5/5  train=4.4821  val=4.4766  ppl=87.9
+  → val_loss=4.4766  val_ppl=87.9
+
+[47/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=4.0686  val=3.5014  ppl=33.2
+  epoch 2/5  train=3.3363  val=3.2285  ppl=25.2
+  epoch 3/5  train=3.1126  val=3.0176  ppl=20.4
+  epoch 4/5  train=2.9452  val=2.8832  ppl=17.9
+  epoch 5/5  train=2.8167  val=2.7541  ppl=15.7
+  → val_loss=2.7603  val_ppl=15.8
+
+[48/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5225  val=4.5183  ppl=91.7
+  epoch 2/5  train=4.5149  val=4.5110  ppl=91.0
+  epoch 3/5  train=4.5076  val=4.5037  ppl=90.3
+  epoch 4/5  train=4.5002  val=4.4969  ppl=89.7
+  epoch 5/5  train=4.4926  val=4.4893  ppl=89.1
+  → val_loss=4.4892  val_ppl=89.0
+
+[49/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.6250  val=2.0120  ppl=7.5
+  epoch 2/5  train=1.9650  val=1.7489  ppl=5.7
+  epoch 3/5  train=1.8078  val=1.6511  ppl=5.2
+  epoch 4/5  train=1.7244  val=1.5749  ppl=4.8
+  epoch 5/5  train=1.6701  val=1.5450  ppl=4.7
+  → val_loss=1.5439  val_ppl=4.7
+
+[50/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4473  val=4.3630  ppl=78.5
+  epoch 2/5  train=4.2526  val=4.1368  ppl=62.6
+  epoch 3/5  train=3.9709  val=3.8494  ppl=47.0
+  epoch 4/5  train=3.7385  val=3.6818  ppl=39.7
+  epoch 5/5  train=3.6127  val=3.5933  ppl=36.4
+  → val_loss=3.5914  val_ppl=36.3
+
+[51/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=2.9623  val=2.3135  ppl=10.1
+  epoch 2/5  train=2.2009  val=1.9757  ppl=7.2
+  epoch 3/5  train=1.9894  val=1.8145  ppl=6.1
+  epoch 4/5  train=1.8675  val=1.7142  ppl=5.6
+  epoch 5/5  train=1.7847  val=1.6436  ppl=5.2
+  → val_loss=1.6466  val_ppl=5.2
+
+[52/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4842  val=4.4426  ppl=85.0
+  epoch 2/5  train=4.3947  val=4.3497  ppl=77.5
+  epoch 3/5  train=4.2912  val=4.2383  ppl=69.3
+  epoch 4/5  train=4.1613  val=4.0951  ppl=60.0
+  epoch 5/5  train=4.0020  val=3.9288  ppl=50.8
+  → val_loss=3.9360  val_ppl=51.2
+
+[53/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.9053  val=2.2782  ppl=9.8
+  epoch 2/5  train=2.1806  val=1.9667  ppl=7.1
+  epoch 3/5  train=1.9976  val=1.8208  ppl=6.2
+  epoch 4/5  train=1.8889  val=1.7473  ppl=5.7
+  epoch 5/5  train=1.8156  val=1.6556  ppl=5.2
+  → val_loss=1.6545  val_ppl=5.2
+
+[54/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4809  val=4.4407  ppl=84.8
+  epoch 2/5  train=4.3951  val=4.3536  ppl=77.8
+  epoch 3/5  train=4.2999  val=4.2519  ppl=70.2
+  epoch 4/5  train=4.1845  val=4.1277  ppl=62.0
+  epoch 5/5  train=4.0461  val=3.9897  ppl=54.0
+  → val_loss=3.9853  val_ppl=53.8
+
+[55/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=3.3322  val=2.7061  ppl=15.0
+  epoch 2/5  train=2.4880  val=2.2618  ppl=9.6
+  epoch 3/5  train=2.2206  val=2.0577  ppl=7.8
+  epoch 4/5  train=2.0840  val=1.9370  ppl=6.9
+  epoch 5/5  train=1.9916  val=1.8556  ppl=6.4
+  → val_loss=1.8426  val_ppl=6.3
+
+[56/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5248  val=4.5039  ppl=90.4
+  epoch 2/5  train=4.4803  val=4.4589  ppl=86.4
+  epoch 3/5  train=4.4329  val=4.4117  ppl=82.4
+  epoch 4/5  train=4.3822  val=4.3574  ppl=78.1
+  epoch 5/5  train=4.3248  val=4.2976  ppl=73.5
+  → val_loss=4.3000  val_ppl=73.7
+
+[57/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=3.6337  val=3.1335  ppl=23.0
+  epoch 2/5  train=2.9505  val=2.7299  ppl=15.3
+  epoch 3/5  train=2.6442  val=2.4895  ppl=12.1
+  epoch 4/5  train=2.4546  val=2.3288  ppl=10.3
+  epoch 5/5  train=2.3322  val=2.2283  ppl=9.3
+  → val_loss=2.2299  val_ppl=9.3
+
+[58/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5139  val=4.5052  ppl=90.5
+  epoch 2/5  train=4.4964  val=4.4880  ppl=88.9
+  epoch 3/5  train=4.4790  val=4.4715  ppl=87.5
+  epoch 4/5  train=4.4613  val=4.4535  ppl=85.9
+  epoch 5/5  train=4.4436  val=4.4367  ppl=84.5
+  → val_loss=4.4368  val_ppl=84.5
+
+[59/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=3.9603  val=3.4419  ppl=31.2
+  epoch 2/5  train=3.3049  val=3.1069  ppl=22.4
+  epoch 3/5  train=3.0159  val=2.8700  ppl=17.6
+  epoch 4/5  train=2.8250  val=2.6998  ppl=14.9
+  epoch 5/5  train=2.6717  val=2.5593  ppl=12.9
+  → val_loss=2.5617  val_ppl=13.0
+
+[60/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5441  val=4.5387  ppl=93.6
+  epoch 2/5  train=4.5364  val=4.5310  ppl=92.9
+  epoch 3/5  train=4.5286  val=4.5234  ppl=92.2
+  epoch 4/5  train=4.5209  val=4.5160  ppl=91.5
+  epoch 5/5  train=4.5132  val=4.5084  ppl=90.8
+  → val_loss=4.5084  val_ppl=90.8
+
+[61/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.8132  val=2.2122  ppl=9.1
+  epoch 2/5  train=2.1727  val=1.9490  ppl=7.0
+  epoch 3/5  train=2.0088  val=1.8109  ppl=6.1
+  epoch 4/5  train=1.9215  val=1.7422  ppl=5.7
+  epoch 5/5  train=1.8630  val=1.6971  ppl=5.5
+  → val_loss=1.7041  val_ppl=5.5
+
+[62/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4666  val=4.3914  ppl=80.8
+  epoch 2/5  train=4.3002  val=4.2079  ppl=67.2
+  epoch 3/5  train=4.0743  val=3.9512  ppl=52.0
+  epoch 4/5  train=3.8428  val=3.7667  ppl=43.2
+  epoch 5/5  train=3.6927  val=3.6534  ppl=38.6
+  → val_loss=3.6477  val_ppl=38.4
+
+[63/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=3.1953  val=2.5511  ppl=12.8
+  epoch 2/5  train=2.4224  val=2.1981  ppl=9.0
+  epoch 3/5  train=2.2109  val=2.0327  ppl=7.6
+  epoch 4/5  train=2.0996  val=1.9257  ppl=6.9
+  epoch 5/5  train=2.0281  val=1.8690  ppl=6.5
+  → val_loss=1.8567  val_ppl=6.4
+
+[64/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4958  val=4.4612  ppl=86.6
+  epoch 2/5  train=4.4222  val=4.3874  ppl=80.4
+  epoch 3/5  train=4.3431  val=4.3052  ppl=74.1
+  epoch 4/5  train=4.2525  val=4.2057  ppl=67.1
+  epoch 5/5  train=4.1422  val=4.0882  ppl=59.6
+  → val_loss=4.0889  val_ppl=59.7
+
+[65/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=3.1247  val=2.4897  ppl=12.1
+  epoch 2/5  train=2.3776  val=2.1554  ppl=8.6
+  epoch 3/5  train=2.1924  val=2.0222  ppl=7.6
+  epoch 4/5  train=2.0847  val=1.9097  ppl=6.8
+  epoch 5/5  train=2.0135  val=1.8494  ppl=6.4
+  → val_loss=1.8494  val_ppl=6.4
+
+[66/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4973  val=4.4616  ppl=86.6
+  epoch 2/5  train=4.4228  val=4.3881  ppl=80.5
+  epoch 3/5  train=4.3456  val=4.3102  ppl=74.5
+  epoch 4/5  train=4.2609  val=4.2221  ppl=68.2
+  epoch 5/5  train=4.1640  val=4.1197  ppl=61.5
+  → val_loss=4.1201  val_ppl=61.6
+
+[67/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=3.4868  val=2.9046  ppl=18.3
+  epoch 2/5  train=2.7027  val=2.4358  ppl=11.4
+  epoch 3/5  train=2.4069  val=2.2295  ppl=9.3
+  epoch 4/5  train=2.2613  val=2.0996  ppl=8.2
+  epoch 5/5  train=2.1693  val=2.0018  ppl=7.4
+  → val_loss=2.0160  val_ppl=7.5
+
+[68/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5292  val=4.5100  ppl=90.9
+  epoch 2/5  train=4.4918  val=4.4734  ppl=87.7
+  epoch 3/5  train=4.4541  val=4.4362  ppl=84.5
+  epoch 4/5  train=4.4160  val=4.3985  ppl=81.3
+  epoch 5/5  train=4.3760  val=4.3583  ppl=78.1
+  → val_loss=4.3603  val_ppl=78.3
+
+[69/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=3.7694  val=3.2517  ppl=25.8
+  epoch 2/5  train=3.0954  val=2.8693  ppl=17.6
+  epoch 3/5  train=2.8371  val=2.6750  ppl=14.5
+  epoch 4/5  train=2.6734  val=2.5340  ppl=12.6
+  epoch 5/5  train=2.5456  val=2.4233  ppl=11.3
+  → val_loss=2.4193  val_ppl=11.2
+
+[70/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5257  val=4.5186  ppl=91.7
+  epoch 2/5  train=4.5111  val=4.5037  ppl=90.4
+  epoch 3/5  train=4.4967  val=4.4898  ppl=89.1
+  epoch 4/5  train=4.4822  val=4.4762  ppl=87.9
+  epoch 5/5  train=4.4681  val=4.4615  ppl=86.6
+  → val_loss=4.4616  val_ppl=86.6
+
+[71/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=4.0572  val=3.5110  ppl=33.5
+  epoch 2/5  train=3.4405  val=3.2369  ppl=25.5
+  epoch 3/5  train=3.1762  val=3.0014  ppl=20.1
+  epoch 4/5  train=2.9875  val=2.8560  ppl=17.4
+  epoch 5/5  train=2.8568  val=2.7419  ppl=15.5
+  → val_loss=2.7397  val_ppl=15.5
+
+[72/216] {'hidden_size': 128, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5239  val=4.5202  ppl=91.9
+  epoch 2/5  train=4.5164  val=4.5127  ppl=91.2
+  epoch 3/5  train=4.5090  val=4.5059  ppl=90.5
+  epoch 4/5  train=4.5016  val=4.4984  ppl=89.9
+  epoch 5/5  train=4.4942  val=4.4910  ppl=89.2
+  → val_loss=4.4912  val_ppl=89.2
+
+[73/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.3707  val=1.8155  ppl=6.1
+  epoch 2/5  train=1.7146  val=1.5559  ppl=4.7
+  epoch 3/5  train=1.5398  val=1.4492  ppl=4.3
+  epoch 4/5  train=1.4407  val=1.3553  ppl=3.9
+  epoch 5/5  train=1.3746  val=1.3212  ppl=3.7
+  → val_loss=1.3179  val_ppl=3.7
+
+[74/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4491  val=4.3451  ppl=77.1
+  epoch 2/5  train=4.2118  val=4.0677  ppl=58.4
+  epoch 3/5  train=3.8986  val=3.7642  ppl=43.1
+  epoch 4/5  train=3.6391  val=3.5704  ppl=35.5
+  epoch 5/5  train=3.4890  val=3.4675  ppl=32.1
+  → val_loss=3.4625  val_ppl=31.9
+
+[75/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=2.7057  val=2.0814  ppl=8.0
+  epoch 2/5  train=1.9225  val=1.7407  ppl=5.7
+  epoch 3/5  train=1.6967  val=1.5833  ppl=4.9
+  epoch 4/5  train=1.5725  val=1.4834  ppl=4.4
+  epoch 5/5  train=1.4905  val=1.4258  ppl=4.2
+  → val_loss=1.4197  val_ppl=4.1
+
+[76/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4884  val=4.4398  ppl=84.8
+  epoch 2/5  train=4.3854  val=4.3347  ppl=76.3
+  epoch 3/5  train=4.2679  val=4.2092  ppl=67.3
+  epoch 4/5  train=4.1267  val=4.0574  ppl=57.8
+  epoch 5/5  train=3.9599  val=3.8921  ppl=49.0
+  → val_loss=3.8909  val_ppl=49.0
+
+[77/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.6604  val=2.0716  ppl=7.9
+  epoch 2/5  train=1.9435  val=1.7592  ppl=5.8
+  epoch 3/5  train=1.7321  val=1.5937  ppl=4.9
+  epoch 4/5  train=1.6048  val=1.5190  ppl=4.6
+  epoch 5/5  train=1.5252  val=1.4603  ppl=4.3
+  → val_loss=1.4530  val_ppl=4.3
+
+[78/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4747  val=4.4263  ppl=83.6
+  epoch 2/5  train=4.3692  val=4.3171  ppl=75.0
+  epoch 3/5  train=4.2475  val=4.1858  ppl=65.7
+  epoch 4/5  train=4.0978  val=4.0236  ppl=55.9
+  epoch 5/5  train=3.9286  val=3.8641  ppl=47.7
+  → val_loss=3.8621  val_ppl=47.6
+
+[79/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=3.1021  val=2.4341  ppl=11.4
+  epoch 2/5  train=2.2428  val=2.0467  ppl=7.7
+  epoch 3/5  train=1.9839  val=1.8425  ppl=6.3
+  epoch 4/5  train=1.8312  val=1.7159  ppl=5.6
+  epoch 5/5  train=1.7268  val=1.6359  ppl=5.1
+  → val_loss=1.6317  val_ppl=5.1
+
+[80/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5012  val=4.4754  ppl=87.8
+  epoch 2/5  train=4.4486  val=4.4224  ppl=83.3
+  epoch 3/5  train=4.3940  val=4.3689  ppl=79.0
+  epoch 4/5  train=4.3354  val=4.3081  ppl=74.3
+  epoch 5/5  train=4.2709  val=4.2435  ppl=69.7
+  → val_loss=4.2433  val_ppl=69.6
+
+[81/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=3.4412  val=2.8562  ppl=17.4
+  epoch 2/5  train=2.6252  val=2.4458  ppl=11.5
+  epoch 3/5  train=2.3462  val=2.2246  ppl=9.2
+  epoch 4/5  train=2.1869  val=2.0822  ppl=8.0
+  epoch 5/5  train=2.0728  val=1.9858  ppl=7.3
+  → val_loss=1.9778  val_ppl=7.2
+
+[82/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5205  val=4.5089  ppl=90.8
+  epoch 2/5  train=4.4997  val=4.4886  ppl=89.0
+  epoch 3/5  train=4.4788  val=4.4678  ppl=87.2
+  epoch 4/5  train=4.4578  val=4.4474  ppl=85.4
+  epoch 5/5  train=4.4367  val=4.4256  ppl=83.6
+  → val_loss=4.4274  val_ppl=83.7
+
+[83/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=3.8618  val=3.3404  ppl=28.2
+  epoch 2/5  train=3.1036  val=2.9111  ppl=18.4
+  epoch 3/5  train=2.7588  val=2.6307  ppl=13.9
+  epoch 4/5  train=2.5340  val=2.4453  ppl=11.5
+  epoch 5/5  train=2.3921  val=2.3198  ppl=10.2
+  → val_loss=2.3144  val_ppl=10.1
+
+[84/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5412  val=4.5360  ppl=93.3
+  epoch 2/5  train=4.5307  val=4.5258  ppl=92.4
+  epoch 3/5  train=4.5202  val=4.5154  ppl=91.4
+  epoch 4/5  train=4.5096  val=4.5051  ppl=90.5
+  epoch 5/5  train=4.4992  val=4.4950  ppl=89.6
+  → val_loss=4.4949  val_ppl=89.6
+
+[85/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.4128  val=1.8036  ppl=6.1
+  epoch 2/5  train=1.7748  val=1.5300  ppl=4.6
+  epoch 3/5  train=1.5980  val=1.4361  ppl=4.2
+  epoch 4/5  train=1.5106  val=1.3507  ppl=3.9
+  epoch 5/5  train=1.4417  val=1.3095  ppl=3.7
+  → val_loss=1.3080  val_ppl=3.7
+
+[86/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4404  val=4.3442  ppl=77.0
+  epoch 2/5  train=4.2281  val=4.1068  ppl=60.8
+  epoch 3/5  train=3.9515  val=3.8286  ppl=46.0
+  epoch 4/5  train=3.6960  val=3.6143  ppl=37.1
+  epoch 5/5  train=3.5284  val=3.4906  ppl=32.8
+  → val_loss=3.4939  val_ppl=32.9
+
+[87/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=2.7363  val=2.0960  ppl=8.1
+  epoch 2/5  train=2.0002  val=1.7573  ppl=5.8
+  epoch 3/5  train=1.7907  val=1.6076  ppl=5.0
+  epoch 4/5  train=1.6669  val=1.5004  ppl=4.5
+  epoch 5/5  train=1.5868  val=1.4277  ppl=4.2
+  → val_loss=1.4451  val_ppl=4.2
+
+[88/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4746  val=4.4209  ppl=83.2
+  epoch 2/5  train=4.3607  val=4.3043  ppl=74.0
+  epoch 3/5  train=4.2291  val=4.1605  ppl=64.1
+  epoch 4/5  train=4.0669  val=3.9895  ppl=54.0
+  epoch 5/5  train=3.8905  val=3.8263  ppl=45.9
+  → val_loss=3.8254  val_ppl=45.9
+
+[89/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.6690  val=2.0350  ppl=7.7
+  epoch 2/5  train=1.9719  val=1.7526  ppl=5.8
+  epoch 3/5  train=1.7774  val=1.6011  ppl=5.0
+  epoch 4/5  train=1.6722  val=1.5102  ppl=4.5
+  epoch 5/5  train=1.5943  val=1.4558  ppl=4.3
+  → val_loss=1.4401  val_ppl=4.2
+
+[90/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4830  val=4.4319  ppl=84.1
+  epoch 2/5  train=4.3750  val=4.3224  ppl=75.4
+  epoch 3/5  train=4.2503  val=4.1901  ppl=66.0
+  epoch 4/5  train=4.0977  val=4.0292  ppl=56.2
+  epoch 5/5  train=3.9242  val=3.8613  ppl=47.5
+  → val_loss=3.8519  val_ppl=47.1
+
+[91/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=3.0784  val=2.3944  ppl=11.0
+  epoch 2/5  train=2.2460  val=2.0315  ppl=7.6
+  epoch 3/5  train=2.0059  val=1.8369  ppl=6.3
+  epoch 4/5  train=1.8687  val=1.7152  ppl=5.6
+  epoch 5/5  train=1.7767  val=1.6231  ppl=5.1
+  → val_loss=1.6267  val_ppl=5.1
+
+[92/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5112  val=4.4861  ppl=88.8
+  epoch 2/5  train=4.4612  val=4.4363  ppl=84.5
+  epoch 3/5  train=4.4099  val=4.3845  ppl=80.2
+  epoch 4/5  train=4.3563  val=4.3306  ppl=76.0
+  epoch 5/5  train=4.2986  val=4.2721  ppl=71.7
+  → val_loss=4.2720  val_ppl=71.7
+
+[93/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=3.4796  val=2.8951  ppl=18.1
+  epoch 2/5  train=2.6852  val=2.4720  ppl=11.8
+  epoch 3/5  train=2.4084  val=2.2622  ppl=9.6
+  epoch 4/5  train=2.2571  val=2.1195  ppl=8.3
+  epoch 5/5  train=2.1498  val=2.0225  ppl=7.6
+  → val_loss=2.0289  val_ppl=7.6
+
+[94/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5068  val=4.4977  ppl=89.8
+  epoch 2/5  train=4.4864  val=4.4774  ppl=88.0
+  epoch 3/5  train=4.4656  val=4.4575  ppl=86.3
+  epoch 4/5  train=4.4452  val=4.4368  ppl=84.5
+  epoch 5/5  train=4.4244  val=4.4174  ppl=82.9
+  → val_loss=4.4164  val_ppl=82.8
+
+[95/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=3.8403  val=3.2863  ppl=26.7
+  epoch 2/5  train=3.0851  val=2.8673  ppl=17.6
+  epoch 3/5  train=2.7500  val=2.5965  ppl=13.4
+  epoch 4/5  train=2.5413  val=2.4220  ppl=11.3
+  epoch 5/5  train=2.4099  val=2.2977  ppl=10.0
+  → val_loss=2.3055  val_ppl=10.0
+
+[96/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5206  val=4.5148  ppl=91.4
+  epoch 2/5  train=4.5094  val=4.5039  ppl=90.4
+  epoch 3/5  train=4.4981  val=4.4929  ppl=89.4
+  epoch 4/5  train=4.4869  val=4.4819  ppl=88.4
+  epoch 5/5  train=4.4756  val=4.4708  ppl=87.4
+  → val_loss=4.4706  val_ppl=87.4
+
+[97/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.4486  val=1.8307  ppl=6.2
+  epoch 2/5  train=1.8429  val=1.5923  ppl=4.9
+  epoch 3/5  train=1.6692  val=1.4664  ppl=4.3
+  epoch 4/5  train=1.5793  val=1.3978  ppl=4.0
+  epoch 5/5  train=1.5117  val=1.3486  ppl=3.9
+  → val_loss=1.3531  val_ppl=3.9
+
+[98/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4409  val=4.3365  ppl=76.4
+  epoch 2/5  train=4.2001  val=4.0606  ppl=58.0
+  epoch 3/5  train=3.8920  val=3.7697  ppl=43.4
+  epoch 4/5  train=3.6441  val=3.5673  ppl=35.4
+  epoch 5/5  train=3.4856  val=3.4471  ppl=31.4
+  → val_loss=3.4513  val_ppl=31.5
+
+[99/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=2.7988  val=2.0904  ppl=8.1
+  epoch 2/5  train=2.0499  val=1.7842  ppl=6.0
+  epoch 3/5  train=1.8548  val=1.6200  ppl=5.1
+  epoch 4/5  train=1.7301  val=1.5257  ppl=4.6
+  epoch 5/5  train=1.6489  val=1.4685  ppl=4.3
+  → val_loss=1.4642  val_ppl=4.3
+
+[100/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4978  val=4.4468  ppl=85.4
+  epoch 2/5  train=4.3940  val=4.3408  ppl=76.8
+  epoch 3/5  train=4.2769  val=4.2175  ppl=67.9
+  epoch 4/5  train=4.1370  val=4.0623  ppl=58.1
+  epoch 5/5  train=3.9723  val=3.9053  ppl=49.7
+  → val_loss=3.9023  val_ppl=49.5
+
+[101/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.7315  val=2.0831  ppl=8.0
+  epoch 2/5  train=2.0414  val=1.7942  ppl=6.0
+  epoch 3/5  train=1.8513  val=1.6438  ppl=5.2
+  epoch 4/5  train=1.7471  val=1.5602  ppl=4.8
+  epoch 5/5  train=1.6735  val=1.5039  ppl=4.5
+  → val_loss=1.4924  val_ppl=4.4
+
+[102/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4910  val=4.4357  ppl=84.4
+  epoch 2/5  train=4.3778  val=4.3181  ppl=75.0
+  epoch 3/5  train=4.2421  val=4.1672  ppl=64.5
+  epoch 4/5  train=4.0700  val=3.9822  ppl=53.6
+  epoch 5/5  train=3.8799  val=3.8084  ppl=45.1
+  → val_loss=3.8116  val_ppl=45.2
+
+[103/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=3.1226  val=2.4242  ppl=11.3
+  epoch 2/5  train=2.2960  val=2.0418  ppl=7.7
+  epoch 3/5  train=2.0720  val=1.8681  ppl=6.5
+  epoch 4/5  train=1.9435  val=1.7480  ppl=5.7
+  epoch 5/5  train=1.8530  val=1.6699  ppl=5.3
+  → val_loss=1.6677  val_ppl=5.3
+
+[104/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5110  val=4.4821  ppl=88.4
+  epoch 2/5  train=4.4554  val=4.4272  ppl=83.7
+  epoch 3/5  train=4.3971  val=4.3666  ppl=78.8
+  epoch 4/5  train=4.3339  val=4.3014  ppl=73.8
+  epoch 5/5  train=4.2610  val=4.2280  ppl=68.6
+  → val_loss=4.2271  val_ppl=68.5
+
+[105/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=3.5042  val=2.8918  ppl=18.0
+  epoch 2/5  train=2.7154  val=2.4663  ppl=11.8
+  epoch 3/5  train=2.4429  val=2.2658  ppl=9.6
+  epoch 4/5  train=2.2920  val=2.1444  ppl=8.5
+  epoch 5/5  train=2.1946  val=2.0383  ppl=7.7
+  → val_loss=2.0415  val_ppl=7.7
+
+[106/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5301  val=4.5191  ppl=91.8
+  epoch 2/5  train=4.5113  val=4.5010  ppl=90.1
+  epoch 3/5  train=4.4928  val=4.4830  ppl=88.5
+  epoch 4/5  train=4.4741  val=4.4644  ppl=86.9
+  epoch 5/5  train=4.4555  val=4.4462  ppl=85.3
+  → val_loss=4.4457  val_ppl=85.3
+
+[107/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=3.8896  val=3.2703  ppl=26.3
+  epoch 2/5  train=3.0943  val=2.8485  ppl=17.3
+  epoch 3/5  train=2.7671  val=2.5852  ppl=13.3
+  epoch 4/5  train=2.5671  val=2.4237  ppl=11.3
+  epoch 5/5  train=2.4368  val=2.3048  ppl=10.0
+  → val_loss=2.3045  val_ppl=10.0
+
+[108/216] {'hidden_size': 256, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5289  val=4.5219  ppl=92.0
+  epoch 2/5  train=4.5184  val=4.5114  ppl=91.0
+  epoch 3/5  train=4.5074  val=4.5011  ppl=90.1
+  epoch 4/5  train=4.4968  val=4.4904  ppl=89.2
+  epoch 5/5  train=4.4861  val=4.4798  ppl=88.2
+  → val_loss=4.4800  val_ppl=88.2
+
+[109/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.4960  val=1.8482  ppl=6.3
+  epoch 2/5  train=1.6982  val=1.5262  ppl=4.6
+  epoch 3/5  train=1.4883  val=1.3974  ppl=4.0
+  epoch 4/5  train=1.3726  val=1.2993  ppl=3.7
+  epoch 5/5  train=1.3079  val=1.2747  ppl=3.6
+  → val_loss=1.2657  val_ppl=3.5
+
+[110/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4645  val=4.3888  ppl=80.5
+  epoch 2/5  train=4.2900  val=4.1882  ppl=65.9
+  epoch 3/5  train=4.0298  val=3.8878  ppl=48.8
+  epoch 4/5  train=3.7542  val=3.6896  ppl=40.0
+  epoch 5/5  train=3.6066  val=3.5883  ppl=36.2
+  → val_loss=3.5906  val_ppl=36.3
+
+[111/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=2.9373  val=2.2441  ppl=9.4
+  epoch 2/5  train=2.0223  val=1.8045  ppl=6.1
+  epoch 3/5  train=1.7234  val=1.5775  ppl=4.8
+  epoch 4/5  train=1.5661  val=1.4615  ppl=4.3
+  epoch 5/5  train=1.4646  val=1.3846  ppl=4.0
+  → val_loss=1.3884  val_ppl=4.0
+
+[112/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4850  val=4.4492  ppl=85.6
+  epoch 2/5  train=4.4057  val=4.3695  ppl=79.0
+  epoch 3/5  train=4.3194  val=4.2765  ppl=72.0
+  epoch 4/5  train=4.2129  val=4.1593  ppl=64.0
+  epoch 5/5  train=4.0740  val=4.0069  ppl=55.0
+  → val_loss=4.0124  val_ppl=55.3
+
+[113/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.7845  val=2.1399  ppl=8.5
+  epoch 2/5  train=1.9642  val=1.7446  ppl=5.7
+  epoch 3/5  train=1.7130  val=1.5915  ppl=4.9
+  epoch 4/5  train=1.5768  val=1.4686  ppl=4.3
+  epoch 5/5  train=1.4792  val=1.4027  ppl=4.1
+  → val_loss=1.3955  val_ppl=4.0
+
+[114/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5027  val=4.4653  ppl=87.0
+  epoch 2/5  train=4.4263  val=4.3889  ppl=80.5
+  epoch 3/5  train=4.3443  val=4.3036  ppl=74.0
+  epoch 4/5  train=4.2481  val=4.2012  ppl=66.8
+  epoch 5/5  train=4.1264  val=4.0672  ppl=58.4
+  → val_loss=4.0674  val_ppl=58.4
+
+[115/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=3.1817  val=2.5318  ppl=12.6
+  epoch 2/5  train=2.2697  val=2.0478  ppl=7.8
+  epoch 3/5  train=1.9487  val=1.8172  ppl=6.2
+  epoch 4/5  train=1.7685  val=1.6568  ppl=5.2
+  epoch 5/5  train=1.6514  val=1.5663  ppl=4.8
+  → val_loss=1.5554  val_ppl=4.7
+
+[116/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5094  val=4.4917  ppl=89.3
+  epoch 2/5  train=4.4711  val=4.4539  ppl=86.0
+  epoch 3/5  train=4.4319  val=4.4143  ppl=82.6
+  epoch 4/5  train=4.3909  val=4.3728  ppl=79.3
+  epoch 5/5  train=4.3476  val=4.3286  ppl=75.8
+  → val_loss=4.3293  val_ppl=75.9
+
+[117/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=3.5037  val=3.0009  ppl=20.1
+  epoch 2/5  train=2.7535  val=2.5369  ppl=12.6
+  epoch 3/5  train=2.4014  val=2.2599  ppl=9.6
+  epoch 4/5  train=2.1930  val=2.0786  ppl=8.0
+  epoch 5/5  train=2.0560  val=1.9413  ppl=7.0
+  → val_loss=1.9607  val_ppl=7.1
+
+[118/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5339  val=4.5256  ppl=92.4
+  epoch 2/5  train=4.5187  val=4.5109  ppl=91.0
+  epoch 3/5  train=4.5036  val=4.4958  ppl=89.6
+  epoch 4/5  train=4.4883  val=4.4812  ppl=88.3
+  epoch 5/5  train=4.4731  val=4.4660  ppl=87.0
+  → val_loss=4.4670  val_ppl=87.1
+
+[119/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=3.7865  val=3.3724  ppl=29.1
+  epoch 2/5  train=3.1581  val=2.9487  ppl=19.1
+  epoch 3/5  train=2.8048  val=2.6598  ppl=14.3
+  epoch 4/5  train=2.5486  val=2.4389  ppl=11.5
+  epoch 5/5  train=2.3809  val=2.3030  ppl=10.0
+  → val_loss=2.3066  val_ppl=10.0
+
+[120/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5269  val=4.5230  ppl=92.1
+  epoch 2/5  train=4.5189  val=4.5153  ppl=91.4
+  epoch 3/5  train=4.5110  val=4.5076  ppl=90.7
+  epoch 4/5  train=4.5031  val=4.4999  ppl=90.0
+  epoch 5/5  train=4.4952  val=4.4922  ppl=89.3
+  → val_loss=4.4922  val_ppl=89.3
+
+[121/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.3314  val=1.7112  ppl=5.5
+  epoch 2/5  train=1.6972  val=1.5041  ppl=4.5
+  epoch 3/5  train=1.5420  val=1.4105  ppl=4.1
+  epoch 4/5  train=1.4604  val=1.3468  ppl=3.8
+  epoch 5/5  train=1.4054  val=1.2923  ppl=3.6
+  → val_loss=1.3095  val_ppl=3.7
+
+[122/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4400  val=4.3429  ppl=76.9
+  epoch 2/5  train=4.1936  val=4.0346  ppl=56.5
+  epoch 3/5  train=3.8572  val=3.7515  ppl=42.6
+  epoch 4/5  train=3.6497  val=3.6089  ppl=36.9
+  epoch 5/5  train=3.5547  val=3.5399  ppl=34.5
+  → val_loss=3.5466  val_ppl=34.7
+
+[123/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=2.7147  val=2.0390  ppl=7.7
+  epoch 2/5  train=1.9194  val=1.6832  ppl=5.4
+  epoch 3/5  train=1.7080  val=1.5538  ppl=4.7
+  epoch 4/5  train=1.5963  val=1.4667  ppl=4.3
+  epoch 5/5  train=1.5251  val=1.4144  ppl=4.1
+  → val_loss=1.4077  val_ppl=4.1
+
+[124/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4889  val=4.4442  ppl=85.1
+  epoch 2/5  train=4.3913  val=4.3407  ppl=76.8
+  epoch 3/5  train=4.2690  val=4.2049  ppl=67.0
+  epoch 4/5  train=4.1048  val=4.0166  ppl=55.5
+  epoch 5/5  train=3.9178  val=3.8605  ppl=47.5
+  → val_loss=3.8484  val_ppl=46.9
+
+[125/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.6383  val=2.0111  ppl=7.5
+  epoch 2/5  train=1.9371  val=1.7244  ppl=5.6
+  epoch 3/5  train=1.7495  val=1.6050  ppl=5.0
+  epoch 4/5  train=1.6481  val=1.5166  ppl=4.6
+  epoch 5/5  train=1.5761  val=1.4579  ppl=4.3
+  → val_loss=1.4701  val_ppl=4.3
+
+[126/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4945  val=4.4532  ppl=85.9
+  epoch 2/5  train=4.4099  val=4.3667  ppl=78.8
+  epoch 3/5  train=4.3134  val=4.2648  ppl=71.1
+  epoch 4/5  train=4.1908  val=4.1249  ppl=61.9
+  epoch 5/5  train=4.0281  val=3.9544  ppl=52.2
+  → val_loss=3.9498  val_ppl=51.9
+
+[127/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=2.9881  val=2.2954  ppl=9.9
+  epoch 2/5  train=2.1511  val=1.9246  ppl=6.9
+  epoch 3/5  train=1.9119  val=1.7362  ppl=5.7
+  epoch 4/5  train=1.7845  val=1.6345  ppl=5.1
+  epoch 5/5  train=1.7000  val=1.5732  ppl=4.8
+  → val_loss=1.5616  val_ppl=4.8
+
+[128/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5087  val=4.4852  ppl=88.7
+  epoch 2/5  train=4.4629  val=4.4410  ppl=84.9
+  epoch 3/5  train=4.4157  val=4.3931  ppl=80.9
+  epoch 4/5  train=4.3653  val=4.3409  ppl=76.8
+  epoch 5/5  train=4.3100  val=4.2814  ppl=72.3
+  → val_loss=4.2829  val_ppl=72.4
+
+[129/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=3.3719  val=2.7913  ppl=16.3
+  epoch 2/5  train=2.5683  val=2.3583  ppl=10.6
+  epoch 3/5  train=2.2909  val=2.1448  ppl=8.5
+  epoch 4/5  train=2.1469  val=2.0248  ppl=7.6
+  epoch 5/5  train=2.0486  val=1.9263  ppl=6.9
+  → val_loss=1.9288  val_ppl=6.9
+
+[130/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5082  val=4.5015  ppl=90.1
+  epoch 2/5  train=4.4908  val=4.4833  ppl=88.5
+  epoch 3/5  train=4.4734  val=4.4662  ppl=87.0
+  epoch 4/5  train=4.4558  val=4.4500  ppl=85.6
+  epoch 5/5  train=4.4379  val=4.4301  ppl=83.9
+  → val_loss=4.4319  val_ppl=84.1
+
+[131/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=3.6885  val=3.1768  ppl=24.0
+  epoch 2/5  train=2.9684  val=2.7353  ppl=15.4
+  epoch 3/5  train=2.6397  val=2.4901  ppl=12.1
+  epoch 4/5  train=2.4347  val=2.3167  ppl=10.1
+  epoch 5/5  train=2.3038  val=2.1964  ppl=9.0
+  → val_loss=2.2080  val_ppl=9.1
+
+[132/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5300  val=4.5252  ppl=92.3
+  epoch 2/5  train=4.5207  val=4.5162  ppl=91.5
+  epoch 3/5  train=4.5115  val=4.5073  ppl=90.7
+  epoch 4/5  train=4.5023  val=4.4981  ppl=89.9
+  epoch 5/5  train=4.4931  val=4.4893  ppl=89.1
+  → val_loss=4.4892  val_ppl=89.1
+
+[133/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.5785  val=1.9552  ppl=7.1
+  epoch 2/5  train=1.9249  val=1.6912  ppl=5.4
+  epoch 3/5  train=1.7680  val=1.5917  ppl=4.9
+  epoch 4/5  train=1.6857  val=1.5463  ppl=4.7
+  epoch 5/5  train=1.6277  val=1.4941  ppl=4.5
+  → val_loss=1.4942  val_ppl=4.5
+
+[134/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4514  val=4.3741  ppl=79.4
+  epoch 2/5  train=4.2806  val=4.1811  ppl=65.4
+  epoch 3/5  train=4.0293  val=3.8949  ppl=49.2
+  epoch 4/5  train=3.7712  val=3.6962  ppl=40.3
+  epoch 5/5  train=3.6260  val=3.6016  ppl=36.7
+  → val_loss=3.5983  val_ppl=36.5
+
+[135/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=2.9220  val=2.2677  ppl=9.7
+  epoch 2/5  train=2.1732  val=1.9475  ppl=7.0
+  epoch 3/5  train=1.9576  val=1.7725  ppl=5.9
+  epoch 4/5  train=1.8423  val=1.6636  ppl=5.3
+  epoch 5/5  train=1.7613  val=1.6103  ppl=5.0
+  → val_loss=1.6192  val_ppl=5.0
+
+[136/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5158  val=4.4777  ppl=88.0
+  epoch 2/5  train=4.4386  val=4.4004  ppl=81.5
+  epoch 3/5  train=4.3530  val=4.3106  ppl=74.5
+  epoch 4/5  train=4.2500  val=4.1951  ppl=66.4
+  epoch 5/5  train=4.1119  val=4.0409  ppl=56.9
+  → val_loss=4.0422  val_ppl=57.0
+
+[137/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.8469  val=2.1965  ppl=9.0
+  epoch 2/5  train=2.1116  val=1.8664  ppl=6.5
+  epoch 3/5  train=1.9178  val=1.7312  ppl=5.6
+  epoch 4/5  train=1.8105  val=1.6568  ppl=5.2
+  epoch 5/5  train=1.7369  val=1.6021  ppl=5.0
+  → val_loss=1.6011  val_ppl=5.0
+
+[138/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4914  val=4.4548  ppl=86.0
+  epoch 2/5  train=4.4135  val=4.3750  ppl=79.4
+  epoch 3/5  train=4.3273  val=4.2859  ppl=72.7
+  epoch 4/5  train=4.2205  val=4.1686  ppl=64.6
+  epoch 5/5  train=4.0792  val=4.0090  ppl=55.1
+  → val_loss=4.0056  val_ppl=54.9
+
+[139/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=3.1954  val=2.5338  ppl=12.6
+  epoch 2/5  train=2.3655  val=2.1284  ppl=8.4
+  epoch 3/5  train=2.1205  val=1.9411  ppl=7.0
+  epoch 4/5  train=1.9869  val=1.8117  ppl=6.1
+  epoch 5/5  train=1.8919  val=1.7323  ppl=5.7
+  → val_loss=1.7230  val_ppl=5.6
+
+[140/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5075  val=4.4896  ppl=89.1
+  epoch 2/5  train=4.4714  val=4.4542  ppl=86.0
+  epoch 3/5  train=4.4348  val=4.4181  ppl=82.9
+  epoch 4/5  train=4.3975  val=4.3813  ppl=79.9
+  epoch 5/5  train=4.3589  val=4.3413  ppl=76.8
+  → val_loss=4.3416  val_ppl=76.8
+
+[141/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=3.5455  val=3.0006  ppl=20.1
+  epoch 2/5  train=2.7956  val=2.5489  ppl=12.8
+  epoch 3/5  train=2.4990  val=2.3440  ppl=10.4
+  epoch 4/5  train=2.3428  val=2.2012  ppl=9.0
+  epoch 5/5  train=2.2369  val=2.1204  ppl=8.3
+  → val_loss=2.1166  val_ppl=8.3
+
+[142/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5251  val=4.5174  ppl=91.6
+  epoch 2/5  train=4.5100  val=4.5031  ppl=90.3
+  epoch 3/5  train=4.4947  val=4.4878  ppl=88.9
+  epoch 4/5  train=4.4793  val=4.4724  ppl=87.6
+  epoch 5/5  train=4.4640  val=4.4578  ppl=86.3
+  → val_loss=4.4577  val_ppl=86.3
+
+[143/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=3.8262  val=3.3424  ppl=28.3
+  epoch 2/5  train=3.1700  val=2.9199  ppl=18.5
+  epoch 3/5  train=2.8329  val=2.6416  ppl=14.0
+  epoch 4/5  train=2.6090  val=2.4677  ppl=11.8
+  epoch 5/5  train=2.4710  val=2.3440  ppl=10.4
+  → val_loss=2.3440  val_ppl=10.4
+
+[144/216] {'hidden_size': 256, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5279  val=4.5242  ppl=92.2
+  epoch 2/5  train=4.5204  val=4.5166  ppl=91.5
+  epoch 3/5  train=4.5128  val=4.5094  ppl=90.9
+  epoch 4/5  train=4.5054  val=4.5022  ppl=90.2
+  epoch 5/5  train=4.4980  val=4.4949  ppl=89.6
+  → val_loss=4.4946  val_ppl=89.5
+
+[145/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.2051  val=1.6505  ppl=5.2
+  epoch 2/5  train=1.5511  val=1.4315  ppl=4.2
+  epoch 3/5  train=1.3847  val=1.3025  ppl=3.7
+  epoch 4/5  train=1.2976  val=1.2304  ppl=3.4
+  epoch 5/5  train=1.2368  val=1.2008  ppl=3.3
+  → val_loss=1.2020  val_ppl=3.3
+
+[146/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4275  val=4.3136  ppl=74.7
+  epoch 2/5  train=4.1494  val=3.9729  ppl=53.1
+  epoch 3/5  train=3.7853  val=3.6516  ppl=38.5
+  epoch 4/5  train=3.5367  val=3.4956  ppl=33.0
+  epoch 5/5  train=3.4160  val=3.3983  ppl=29.9
+  → val_loss=3.4030  val_ppl=30.1
+
+[147/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=2.5462  val=1.9355  ppl=6.9
+  epoch 2/5  train=1.7907  val=1.5965  ppl=4.9
+  epoch 3/5  train=1.5595  val=1.4515  ppl=4.3
+  epoch 4/5  train=1.4357  val=1.3552  ppl=3.9
+  epoch 5/5  train=1.3591  val=1.3132  ppl=3.7
+  → val_loss=1.2961  val_ppl=3.7
+
+[148/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4942  val=4.4473  ppl=85.4
+  epoch 2/5  train=4.3944  val=4.3457  ppl=77.1
+  epoch 3/5  train=4.2828  val=4.2246  ppl=68.3
+  epoch 4/5  train=4.1446  val=4.0713  ppl=58.6
+  epoch 5/5  train=3.9749  val=3.8953  ppl=49.2
+  → val_loss=3.8957  val_ppl=49.2
+
+[149/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.4772  val=1.8797  ppl=6.6
+  epoch 2/5  train=1.7603  val=1.5856  ppl=4.9
+  epoch 3/5  train=1.5541  val=1.4424  ppl=4.2
+  epoch 4/5  train=1.4380  val=1.3645  ppl=3.9
+  epoch 5/5  train=1.3615  val=1.2920  ppl=3.6
+  → val_loss=1.2982  val_ppl=3.7
+
+[150/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4830  val=4.4254  ppl=83.5
+  epoch 2/5  train=4.3581  val=4.2905  ppl=73.0
+  epoch 3/5  train=4.2022  val=4.1148  ppl=61.2
+  epoch 4/5  train=3.9977  val=3.9060  ppl=49.7
+  epoch 5/5  train=3.7956  val=3.7214  ppl=41.3
+  → val_loss=3.7241  val_ppl=41.4
+
+[151/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=2.8292  val=2.1722  ppl=8.8
+  epoch 2/5  train=2.0071  val=1.8148  ppl=6.1
+  epoch 3/5  train=1.7662  val=1.6433  ppl=5.2
+  epoch 4/5  train=1.6223  val=1.5298  ppl=4.6
+  epoch 5/5  train=1.5274  val=1.4508  ppl=4.3
+  → val_loss=1.4435  val_ppl=4.2
+
+[152/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5074  val=4.4816  ppl=88.4
+  epoch 2/5  train=4.4531  val=4.4266  ppl=83.6
+  epoch 3/5  train=4.3967  val=4.3713  ppl=79.1
+  epoch 4/5  train=4.3352  val=4.3073  ppl=74.2
+  epoch 5/5  train=4.2671  val=4.2338  ppl=69.0
+  → val_loss=4.2370  val_ppl=69.2
+
+[153/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=3.2633  val=2.6450  ppl=14.1
+  epoch 2/5  train=2.4414  val=2.2567  ppl=9.6
+  epoch 3/5  train=2.1805  val=2.0488  ppl=7.8
+  epoch 4/5  train=2.0277  val=1.9083  ppl=6.7
+  epoch 5/5  train=1.9155  val=1.8091  ppl=6.1
+  → val_loss=1.8242  val_ppl=6.2
+
+[154/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5357  val=4.5248  ppl=92.3
+  epoch 2/5  train=4.5131  val=4.5029  ppl=90.3
+  epoch 3/5  train=4.4905  val=4.4805  ppl=88.3
+  epoch 4/5  train=4.4677  val=4.4576  ppl=86.3
+  epoch 5/5  train=4.4443  val=4.4346  ppl=84.3
+  → val_loss=4.4359  val_ppl=84.4
+
+[155/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=3.6269  val=3.1309  ppl=22.9
+  epoch 2/5  train=2.8435  val=2.6239  ppl=13.8
+  epoch 3/5  train=2.4999  val=2.3798  ppl=10.8
+  epoch 4/5  train=2.3179  val=2.2172  ppl=9.2
+  epoch 5/5  train=2.1929  val=2.1083  ppl=8.2
+  → val_loss=2.1153  val_ppl=8.3
+
+[156/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.0, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5278  val=4.5231  ppl=92.1
+  epoch 2/5  train=4.5162  val=4.5116  ppl=91.1
+  epoch 3/5  train=4.5046  val=4.5001  ppl=90.0
+  epoch 4/5  train=4.4930  val=4.4889  ppl=89.0
+  epoch 5/5  train=4.4813  val=4.4776  ppl=88.0
+  → val_loss=4.4777  val_ppl=88.0
+
+[157/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.2370  val=1.6434  ppl=5.2
+  epoch 2/5  train=1.6145  val=1.4065  ppl=4.1
+  epoch 3/5  train=1.4488  val=1.2994  ppl=3.7
+  epoch 4/5  train=1.3575  val=1.2303  ppl=3.4
+  epoch 5/5  train=1.2965  val=1.1860  ppl=3.3
+  → val_loss=1.1825  val_ppl=3.3
+
+[158/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4263  val=4.3150  ppl=74.8
+  epoch 2/5  train=4.1578  val=3.9823  ppl=53.6
+  epoch 3/5  train=3.7936  val=3.6488  ppl=38.4
+  epoch 4/5  train=3.5406  val=3.5002  ppl=33.1
+  epoch 5/5  train=3.4316  val=3.4128  ppl=30.4
+  → val_loss=3.4155  val_ppl=30.4
+
+[159/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=2.5485  val=1.9089  ppl=6.7
+  epoch 2/5  train=1.8291  val=1.6073  ppl=5.0
+  epoch 3/5  train=1.6255  val=1.4459  ppl=4.2
+  epoch 4/5  train=1.5082  val=1.3710  ppl=3.9
+  epoch 5/5  train=1.4284  val=1.2933  ppl=3.6
+  → val_loss=1.3098  val_ppl=3.7
+
+[160/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4939  val=4.4407  ppl=84.8
+  epoch 2/5  train=4.3796  val=4.3212  ppl=75.3
+  epoch 3/5  train=4.2417  val=4.1691  ppl=64.7
+  epoch 4/5  train=4.0602  val=3.9655  ppl=52.7
+  epoch 5/5  train=3.8509  val=3.7736  ppl=43.5
+  → val_loss=3.7803  val_ppl=43.8
+
+[161/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.5105  val=1.9091  ppl=6.7
+  epoch 2/5  train=1.8340  val=1.6080  ppl=5.0
+  epoch 3/5  train=1.6402  val=1.4755  ppl=4.4
+  epoch 4/5  train=1.5258  val=1.3792  ppl=4.0
+  epoch 5/5  train=1.4482  val=1.3308  ppl=3.8
+  → val_loss=1.3324  val_ppl=3.8
+
+[162/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4910  val=4.4415  ppl=84.9
+  epoch 2/5  train=4.3870  val=4.3350  ppl=76.3
+  epoch 3/5  train=4.2685  val=4.2091  ppl=67.3
+  epoch 4/5  train=4.1204  val=4.0392  ppl=56.8
+  epoch 5/5  train=3.9332  val=3.8477  ppl=46.9
+  → val_loss=3.8501  val_ppl=47.0
+
+[163/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=2.8510  val=2.1760  ppl=8.8
+  epoch 2/5  train=2.0498  val=1.8261  ppl=6.2
+  epoch 3/5  train=1.8238  val=1.6521  ppl=5.2
+  epoch 4/5  train=1.6908  val=1.5399  ppl=4.7
+  epoch 5/5  train=1.5989  val=1.4660  ppl=4.3
+  → val_loss=1.4605  val_ppl=4.3
+
+[164/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4970  val=4.4694  ppl=87.3
+  epoch 2/5  train=4.4384  val=4.4104  ppl=82.3
+  epoch 3/5  train=4.3761  val=4.3456  ppl=77.1
+  epoch 4/5  train=4.3067  val=4.2726  ppl=71.7
+  epoch 5/5  train=4.2274  val=4.1908  ppl=66.1
+  → val_loss=4.1915  val_ppl=66.1
+
+[165/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=3.2669  val=2.6360  ppl=14.0
+  epoch 2/5  train=2.4647  val=2.2644  ppl=9.6
+  epoch 3/5  train=2.2135  val=2.0560  ppl=7.8
+  epoch 4/5  train=2.0668  val=1.9262  ppl=6.9
+  epoch 5/5  train=1.9598  val=1.8200  ppl=6.2
+  → val_loss=1.8190  val_ppl=6.2
+
+[166/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5267  val=4.5142  ppl=91.3
+  epoch 2/5  train=4.5032  val=4.4912  ppl=89.2
+  epoch 3/5  train=4.4797  val=4.4682  ppl=87.2
+  epoch 4/5  train=4.4562  val=4.4457  ppl=85.3
+  epoch 5/5  train=4.4318  val=4.4210  ppl=83.2
+  → val_loss=4.4209  val_ppl=83.2
+
+[167/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=3.6186  val=3.0564  ppl=21.3
+  epoch 2/5  train=2.8119  val=2.5743  ppl=13.1
+  epoch 3/5  train=2.4794  val=2.3321  ppl=10.3
+  epoch 4/5  train=2.3055  val=2.1843  ppl=8.9
+  epoch 5/5  train=2.1872  val=2.0657  ppl=7.9
+  → val_loss=2.0694  val_ppl=7.9
+
+[168/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.3, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5315  val=4.5262  ppl=92.4
+  epoch 2/5  train=4.5206  val=4.5153  ppl=91.4
+  epoch 3/5  train=4.5098  val=4.5050  ppl=90.5
+  epoch 4/5  train=4.4991  val=4.4942  ppl=89.5
+  epoch 5/5  train=4.4883  val=4.4838  ppl=88.6
+  → val_loss=4.4837  val_ppl=88.6
+
+[169/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.2616  val=1.6434  ppl=5.2
+  epoch 2/5  train=1.6449  val=1.4270  ppl=4.2
+  epoch 3/5  train=1.4796  val=1.3015  ppl=3.7
+  epoch 4/5  train=1.3874  val=1.2517  ppl=3.5
+  epoch 5/5  train=1.3313  val=1.1999  ppl=3.3
+  → val_loss=1.2030  val_ppl=3.3
+
+[170/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4173  val=4.2911  ppl=73.0
+  epoch 2/5  train=4.1029  val=3.9090  ppl=49.8
+  epoch 3/5  train=3.7353  val=3.6121  ppl=37.0
+  epoch 4/5  train=3.5175  val=3.4704  ppl=32.2
+  epoch 5/5  train=3.4100  val=3.3867  ppl=29.6
+  → val_loss=3.3796  val_ppl=29.4
+
+[171/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=2.5840  val=1.9105  ppl=6.8
+  epoch 2/5  train=1.8536  val=1.5949  ppl=4.9
+  epoch 3/5  train=1.6457  val=1.4532  ppl=4.3
+  epoch 4/5  train=1.5314  val=1.3665  ppl=3.9
+  epoch 5/5  train=1.4559  val=1.3134  ppl=3.7
+  → val_loss=1.3125  val_ppl=3.7
+
+[172/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4880  val=4.4337  ppl=84.2
+  epoch 2/5  train=4.3733  val=4.3133  ppl=74.7
+  epoch 3/5  train=4.2367  val=4.1608  ppl=64.1
+  epoch 4/5  train=4.0587  val=3.9637  ppl=52.7
+  epoch 5/5  train=3.8539  val=3.7757  ppl=43.6
+  → val_loss=3.7729  val_ppl=43.5
+
+[173/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.5244  val=1.9030  ppl=6.7
+  epoch 2/5  train=1.8592  val=1.6124  ppl=5.0
+  epoch 3/5  train=1.6687  val=1.4771  ppl=4.4
+  epoch 4/5  train=1.5610  val=1.3794  ppl=4.0
+  epoch 5/5  train=1.4809  val=1.3466  ppl=3.8
+  → val_loss=1.3376  val_ppl=3.8
+
+[174/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4830  val=4.4242  ppl=83.4
+  epoch 2/5  train=4.3561  val=4.2887  ppl=72.9
+  epoch 3/5  train=4.1953  val=4.1026  ppl=60.5
+  epoch 4/5  train=3.9833  val=3.8903  ppl=48.9
+  epoch 5/5  train=3.7757  val=3.6980  ppl=40.4
+  → val_loss=3.7033  val_ppl=40.6
+
+[175/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=2.8800  val=2.1976  ppl=9.0
+  epoch 2/5  train=2.0937  val=1.8358  ppl=6.3
+  epoch 3/5  train=1.8633  val=1.6517  ppl=5.2
+  epoch 4/5  train=1.7270  val=1.5496  ppl=4.7
+  epoch 5/5  train=1.6355  val=1.4881  ppl=4.4
+  → val_loss=1.4741  val_ppl=4.4
+
+[176/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5137  val=4.4871  ppl=88.9
+  epoch 2/5  train=4.4604  val=4.4339  ppl=84.3
+  epoch 3/5  train=4.4055  val=4.3774  ppl=79.6
+  epoch 4/5  train=4.3461  val=4.3166  ppl=74.9
+  epoch 5/5  train=4.2806  val=4.2501  ppl=70.1
+  → val_loss=4.2487  val_ppl=70.0
+
+[177/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=3.2589  val=2.6200  ppl=13.7
+  epoch 2/5  train=2.4720  val=2.2501  ppl=9.5
+  epoch 3/5  train=2.2281  val=2.0535  ppl=7.8
+  epoch 4/5  train=2.0857  val=1.9213  ppl=6.8
+  epoch 5/5  train=1.9875  val=1.8265  ppl=6.2
+  → val_loss=1.8221  val_ppl=6.2
+
+[178/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5221  val=4.5110  ppl=91.0
+  epoch 2/5  train=4.5003  val=4.4900  ppl=89.1
+  epoch 3/5  train=4.4787  val=4.4681  ppl=87.2
+  epoch 4/5  train=4.4571  val=4.4457  ppl=85.3
+  epoch 5/5  train=4.4348  val=4.4252  ppl=83.5
+  → val_loss=4.4249  val_ppl=83.5
+
+[179/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=3.6321  val=3.0744  ppl=21.6
+  epoch 2/5  train=2.8627  val=2.6087  ppl=13.6
+  epoch 3/5  train=2.5357  val=2.3787  ppl=10.8
+  epoch 4/5  train=2.3624  val=2.2138  ppl=9.2
+  epoch 5/5  train=2.2370  val=2.0983  ppl=8.2
+  → val_loss=2.0998  val_ppl=8.2
+
+[180/216] {'hidden_size': 512, 'num_layers': 1, 'dropout': 0.5, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5355  val=4.5304  ppl=92.8
+  epoch 2/5  train=4.5250  val=4.5198  ppl=91.8
+  epoch 3/5  train=4.5145  val=4.5096  ppl=90.9
+  epoch 4/5  train=4.5040  val=4.4995  ppl=90.0
+  epoch 5/5  train=4.4935  val=4.4894  ppl=89.1
+  → val_loss=4.4893  val_ppl=89.1
+
+[181/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.1075  val=1.4870  ppl=4.4
+  epoch 2/5  train=1.3817  val=1.2453  ppl=3.5
+  epoch 3/5  train=1.2198  val=1.1641  ppl=3.2
+  epoch 4/5  train=1.1419  val=1.1183  ppl=3.1
+  epoch 5/5  train=1.0946  val=1.0908  ppl=3.0
+  → val_loss=1.0963  val_ppl=3.0
+
+[182/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4621  val=4.3889  ppl=80.6
+  epoch 2/5  train=4.2978  val=4.2080  ppl=67.2
+  epoch 3/5  train=4.0557  val=3.9168  ppl=50.2
+  epoch 4/5  train=3.7737  val=3.6888  ppl=40.0
+  epoch 5/5  train=3.6023  val=3.5874  ppl=36.1
+  → val_loss=3.5694  val_ppl=35.5
+
+[183/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=2.5586  val=1.8447  ppl=6.3
+  epoch 2/5  train=1.6713  val=1.4629  ppl=4.3
+  epoch 3/5  train=1.4042  val=1.3114  ppl=3.7
+  epoch 4/5  train=1.2729  val=1.2103  ppl=3.4
+  epoch 5/5  train=1.1993  val=1.1570  ppl=3.2
+  → val_loss=1.1590  val_ppl=3.2
+
+[184/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4952  val=4.4582  ppl=86.3
+  epoch 2/5  train=4.4160  val=4.3763  ppl=79.5
+  epoch 3/5  train=4.3269  val=4.2824  ppl=72.4
+  epoch 4/5  train=4.2153  val=4.1585  ppl=64.0
+  epoch 5/5  train=4.0631  val=3.9842  ppl=53.7
+  → val_loss=3.9882  val_ppl=54.0
+
+[185/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.5132  val=1.8359  ppl=6.3
+  epoch 2/5  train=1.6876  val=1.5113  ppl=4.5
+  epoch 3/5  train=1.4571  val=1.3572  ppl=3.9
+  epoch 4/5  train=1.3357  val=1.2688  ppl=3.6
+  epoch 5/5  train=1.2582  val=1.2128  ppl=3.4
+  → val_loss=1.2090  val_ppl=3.4
+
+[186/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4983  val=4.4619  ppl=86.7
+  epoch 2/5  train=4.4204  val=4.3837  ppl=80.1
+  epoch 3/5  train=4.3346  val=4.2919  ppl=73.1
+  epoch 4/5  train=4.2294  val=4.1723  ppl=64.9
+  epoch 5/5  train=4.0826  val=4.0105  ppl=55.2
+  → val_loss=4.0136  val_ppl=55.3
+
+[187/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=2.9002  val=2.1885  ppl=8.9
+  epoch 2/5  train=1.9705  val=1.7322  ppl=5.7
+  epoch 3/5  train=1.6723  val=1.5309  ppl=4.6
+  epoch 4/5  train=1.5075  val=1.3939  ppl=4.0
+  epoch 5/5  train=1.3983  val=1.3152  ppl=3.7
+  → val_loss=1.3197  val_ppl=3.7
+
+[188/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5174  val=4.4991  ppl=89.9
+  epoch 2/5  train=4.4800  val=4.4624  ppl=86.7
+  epoch 3/5  train=4.4419  val=4.4245  ppl=83.5
+  epoch 4/5  train=4.4025  val=4.3854  ppl=80.3
+  epoch 5/5  train=4.3611  val=4.3443  ppl=77.0
+  → val_loss=4.3434  val_ppl=77.0
+
+[189/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=3.2266  val=2.6030  ppl=13.5
+  epoch 2/5  train=2.3606  val=2.1837  ppl=8.9
+  epoch 3/5  train=2.0986  val=1.9784  ppl=7.2
+  epoch 4/5  train=1.9335  val=1.8120  ppl=6.1
+  epoch 5/5  train=1.8195  val=1.7029  ppl=5.5
+  → val_loss=1.7249  val_ppl=5.6
+
+[190/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5173  val=4.5104  ppl=91.0
+  epoch 2/5  train=4.5023  val=4.4964  ppl=89.7
+  epoch 3/5  train=4.4873  val=4.4815  ppl=88.4
+  epoch 4/5  train=4.4725  val=4.4663  ppl=87.0
+  epoch 5/5  train=4.4575  val=4.4520  ppl=85.8
+  → val_loss=4.4527  val_ppl=85.9
+
+[191/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=3.5875  val=3.1144  ppl=22.5
+  epoch 2/5  train=2.8235  val=2.5807  ppl=13.2
+  epoch 3/5  train=2.4455  val=2.3100  ppl=10.1
+  epoch 4/5  train=2.2406  val=2.1379  ppl=8.5
+  epoch 5/5  train=2.1069  val=2.0154  ppl=7.5
+  → val_loss=2.0201  val_ppl=7.5
+
+[192/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.0, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5256  val=4.5223  ppl=92.1
+  epoch 2/5  train=4.5179  val=4.5149  ppl=91.4
+  epoch 3/5  train=4.5101  val=4.5073  ppl=90.7
+  epoch 4/5  train=4.5023  val=4.4996  ppl=90.0
+  epoch 5/5  train=4.4946  val=4.4920  ppl=89.3
+  → val_loss=4.4919  val_ppl=89.3
+
+[193/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.0850  val=1.5018  ppl=4.5
+  epoch 2/5  train=1.4549  val=1.3047  ppl=3.7
+  epoch 3/5  train=1.3146  val=1.2254  ppl=3.4
+  epoch 4/5  train=1.2529  val=1.1785  ppl=3.2
+  epoch 5/5  train=1.2091  val=1.1445  ppl=3.1
+  → val_loss=1.1602  val_ppl=3.2
+
+[194/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4444  val=4.3455  ppl=77.1
+  epoch 2/5  train=4.1925  val=4.0122  ppl=55.3
+  epoch 3/5  train=3.8185  val=3.6955  ppl=40.3
+  epoch 4/5  train=3.5974  val=3.5784  ppl=35.8
+  epoch 5/5  train=3.5169  val=3.5116  ppl=33.5
+  → val_loss=3.5235  val_ppl=33.9
+
+[195/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=2.4067  val=1.7222  ppl=5.6
+  epoch 2/5  train=1.6391  val=1.4254  ppl=4.2
+  epoch 3/5  train=1.4443  val=1.3098  ppl=3.7
+  epoch 4/5  train=1.3457  val=1.2466  ppl=3.5
+  epoch 5/5  train=1.2838  val=1.2101  ppl=3.4
+  → val_loss=1.2080  val_ppl=3.3
+
+[196/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4979  val=4.4528  ppl=85.9
+  epoch 2/5  train=4.3991  val=4.3483  ppl=77.3
+  epoch 3/5  train=4.2758  val=4.2071  ppl=67.2
+  epoch 4/5  train=4.0947  val=3.9969  ppl=54.4
+  epoch 5/5  train=3.8749  val=3.7998  ppl=44.7
+  → val_loss=3.8020  val_ppl=44.8
+
+[197/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.3303  val=1.7371  ppl=5.7
+  epoch 2/5  train=1.6610  val=1.4661  ppl=4.3
+  epoch 3/5  train=1.4827  val=1.3433  ppl=3.8
+  epoch 4/5  train=1.3897  val=1.2984  ppl=3.7
+  epoch 5/5  train=1.3312  val=1.2622  ppl=3.5
+  → val_loss=1.2378  val_ppl=3.4
+
+[198/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4960  val=4.4499  ppl=85.6
+  epoch 2/5  train=4.3978  val=4.3465  ppl=77.2
+  epoch 3/5  train=4.2772  val=4.2035  ppl=66.9
+  epoch 4/5  train=4.1027  val=4.0048  ppl=54.9
+  epoch 5/5  train=3.8885  val=3.8093  ppl=45.1
+  → val_loss=3.8090  val_ppl=45.1
+
+[199/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=2.7136  val=2.0253  ppl=7.6
+  epoch 2/5  train=1.9061  val=1.6727  ppl=5.3
+  epoch 3/5  train=1.6750  val=1.5044  ppl=4.5
+  epoch 4/5  train=1.5506  val=1.4194  ppl=4.1
+  epoch 5/5  train=1.4651  val=1.3549  ppl=3.9
+  → val_loss=1.3524  val_ppl=3.9
+
+[200/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5116  val=4.4896  ppl=89.1
+  epoch 2/5  train=4.4661  val=4.4446  ppl=85.2
+  epoch 3/5  train=4.4187  val=4.3963  ppl=81.1
+  epoch 4/5  train=4.3669  val=4.3442  ppl=77.0
+  epoch 5/5  train=4.3085  val=4.2802  ppl=72.3
+  → val_loss=4.2801  val_ppl=72.2
+
+[201/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=3.0482  val=2.3953  ppl=11.0
+  epoch 2/5  train=2.2505  val=2.0544  ppl=7.8
+  epoch 3/5  train=2.0226  val=1.8601  ppl=6.4
+  epoch 4/5  train=1.8865  val=1.7457  ppl=5.7
+  epoch 5/5  train=1.7938  val=1.6623  ppl=5.3
+  → val_loss=1.6699  val_ppl=5.3
+
+[202/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5175  val=4.5092  ppl=90.8
+  epoch 2/5  train=4.4987  val=4.4907  ppl=89.2
+  epoch 3/5  train=4.4795  val=4.4710  ppl=87.4
+  epoch 4/5  train=4.4603  val=4.4537  ppl=85.9
+  epoch 5/5  train=4.4404  val=4.4351  ppl=84.4
+  → val_loss=4.4340  val_ppl=84.3
+
+[203/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=3.4269  val=2.8176  ppl=16.7
+  epoch 2/5  train=2.5721  val=2.3456  ppl=10.4
+  epoch 3/5  train=2.2711  val=2.1319  ppl=8.4
+  epoch 4/5  train=2.1096  val=1.9795  ppl=7.2
+  epoch 5/5  train=1.9995  val=1.8765  ppl=6.5
+  → val_loss=1.8774  val_ppl=6.5
+
+[204/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.3, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5196  val=4.5154  ppl=91.4
+  epoch 2/5  train=4.5104  val=4.5064  ppl=90.6
+  epoch 3/5  train=4.5012  val=4.4973  ppl=89.8
+  epoch 4/5  train=4.4919  val=4.4885  ppl=89.0
+  epoch 5/5  train=4.4826  val=4.4791  ppl=88.2
+  → val_loss=4.4788  val_ppl=88.1
+
+[205/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.2307  val=1.6247  ppl=5.1
+  epoch 2/5  train=1.5980  val=1.4001  ppl=4.1
+  epoch 3/5  train=1.4415  val=1.3170  ppl=3.7
+  epoch 4/5  train=1.3635  val=1.2625  ppl=3.5
+  epoch 5/5  train=1.3179  val=1.2333  ppl=3.4
+  → val_loss=1.2244  val_ppl=3.4
+
+[206/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4713  val=4.3953  ppl=81.1
+  epoch 2/5  train=4.2970  val=4.1933  ppl=66.2
+  epoch 3/5  train=4.0166  val=3.8578  ppl=47.4
+  epoch 4/5  train=3.7230  val=3.6523  ppl=38.6
+  epoch 5/5  train=3.5771  val=3.5571  ppl=35.1
+  → val_loss=3.5501  val_ppl=34.8
+
+[207/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=2.6449  val=1.9468  ppl=7.0
+  epoch 2/5  train=1.8312  val=1.5891  ppl=4.9
+  epoch 3/5  train=1.6055  val=1.4429  ppl=4.2
+  epoch 4/5  train=1.4897  val=1.3525  ppl=3.9
+  epoch 5/5  train=1.4139  val=1.3049  ppl=3.7
+  → val_loss=1.3015  val_ppl=3.7
+
+[208/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5081  val=4.4701  ppl=87.4
+  epoch 2/5  train=4.4287  val=4.3891  ppl=80.6
+  epoch 3/5  train=4.3403  val=4.2953  ppl=73.4
+  epoch 4/5  train=4.2288  val=4.1698  ppl=64.7
+  epoch 5/5  train=4.0717  val=3.9860  ppl=53.8
+  → val_loss=3.9886  val_ppl=54.0
+
+[209/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=2.5257  val=1.8893  ppl=6.6
+  epoch 2/5  train=1.8186  val=1.6194  ppl=5.1
+  epoch 3/5  train=1.6344  val=1.4740  ppl=4.4
+  epoch 4/5  train=1.5334  val=1.4027  ppl=4.1
+  epoch 5/5  train=1.4668  val=1.3496  ppl=3.9
+  → val_loss=1.3494  val_ppl=3.9
+
+[210/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0005, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.4995  val=4.4638  ppl=86.8
+  epoch 2/5  train=4.4244  val=4.3882  ppl=80.5
+  epoch 3/5  train=4.3435  val=4.3056  ppl=74.1
+  epoch 4/5  train=4.2501  val=4.2032  ppl=66.9
+  epoch 5/5  train=4.1304  val=4.0719  ppl=58.7
+  → val_loss=4.0702  val_ppl=58.6
+
+[211/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=2.9579  val=2.2558  ppl=9.5
+  epoch 2/5  train=2.1058  val=1.8360  ppl=6.3
+  epoch 3/5  train=1.8396  val=1.6537  ppl=5.2
+  epoch 4/5  train=1.6982  val=1.5468  ppl=4.7
+  epoch 5/5  train=1.6046  val=1.4666  ppl=4.3
+  → val_loss=1.4703  val_ppl=4.4
+
+[212/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0005, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5204  val=4.5018  ppl=90.2
+  epoch 2/5  train=4.4813  val=4.4634  ppl=86.8
+  epoch 3/5  train=4.4415  val=4.4246  ppl=83.5
+  epoch 4/5  train=4.4003  val=4.3824  ppl=80.0
+  epoch 5/5  train=4.3563  val=4.3371  ppl=76.5
+  → val_loss=4.3380  val_ppl=76.6
+
+[213/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'adam'}
+  epoch 1/5  train=3.3191  val=2.7150  ppl=15.1
+  epoch 2/5  train=2.5001  val=2.2466  ppl=9.5
+  epoch 3/5  train=2.2277  val=2.0592  ppl=7.8
+  epoch 4/5  train=2.0796  val=1.9242  ppl=6.8
+  epoch 5/5  train=1.9795  val=1.8398  ppl=6.3
+  → val_loss=1.8333  val_ppl=6.3
+
+[214/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0001, 'seq_len': 100, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5290  val=4.5215  ppl=92.0
+  epoch 2/5  train=4.5139  val=4.5066  ppl=90.6
+  epoch 3/5  train=4.4987  val=4.4919  ppl=89.3
+  epoch 4/5  train=4.4834  val=4.4775  ppl=88.0
+  epoch 5/5  train=4.4685  val=4.4627  ppl=86.7
+  → val_loss=4.4624  val_ppl=86.7
+
+[215/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'adam'}
+  epoch 1/5  train=3.6166  val=3.0870  ppl=21.9
+  epoch 2/5  train=2.8423  val=2.5679  ppl=13.0
+  epoch 3/5  train=2.4871  val=2.3112  ppl=10.1
+  epoch 4/5  train=2.3045  val=2.1624  ppl=8.7
+  epoch 5/5  train=2.1918  val=2.0540  ppl=7.8
+  → val_loss=2.0527  val_ppl=7.8
+
+[216/216] {'hidden_size': 512, 'num_layers': 2, 'dropout': 0.5, 'lr': 0.0001, 'seq_len': 200, 'optimizer': 'sgd'}
+  epoch 1/5  train=4.5341  val=4.5298  ppl=92.7
+  epoch 2/5  train=4.5264  val=4.5224  ppl=92.1
+  epoch 3/5  train=4.5188  val=4.5149  ppl=91.4
+  epoch 4/5  train=4.5111  val=4.5076  ppl=90.7
+  epoch 5/5  train=4.5035  val=4.5001  ppl=90.0
+  → val_loss=4.4999  val_ppl=90.0
+
+
+=== Best config ===
+  hidden_size: 512
+  num_layers: 2
+  dropout: 0.0
+  lr: 0.001
+  seq_len: 100
+  optimizer: adam
+  final_train_loss: 1.0786332488059998
+  final_val_loss: 1.096292895078659
+  final_val_perplexity: 2.9930498823765084
+
+Training best config for 20 epochs on GoT…
+  epoch 1/20  train=2.2242  val=1.5275  ppl=4.6
+  epoch 2/20  train=1.4080  val=1.2678  ppl=3.6
+  epoch 3/20  train=1.2308  val=1.1729  ppl=3.2
+  epoch 4/20  train=1.1519  val=1.1208  ppl=3.1
+  epoch 5/20  train=1.1033  val=1.1040  ppl=3.0
+  epoch 6/20  train=1.0681  val=1.0909  ppl=3.0
+  epoch 7/20  train=1.0442  val=1.0721  ppl=2.9
+  epoch 8/20  train=1.0179  val=1.0660  ppl=2.9
+  epoch 9/20  train=1.0002  val=1.0721  ppl=2.9
+  epoch 10/20  train=0.9792  val=1.0744  ppl=2.9
+  epoch 11/20  train=0.9611  val=1.0622  ppl=2.9
+  epoch 12/20  train=0.9440  val=1.0611  ppl=2.9
+  epoch 13/20  train=0.9293  val=1.0712  ppl=2.9
+  epoch 14/20  train=0.9127  val=1.0865  ppl=3.0
+  epoch 15/20  train=0.8969  val=1.0649  ppl=2.9
+  epoch 16/20  train=0.8829  val=1.0778  ppl=2.9
+  epoch 17/20  train=0.8667  val=1.0828  ppl=3.0
+  epoch 18/20  train=0.8538  val=1.0892  ppl=3.0
+  epoch 19/20  train=0.8385  val=1.1041  ppl=3.0
+  epoch 20/20  train=0.8251  val=1.0921  ppl=3.0
+
+Training best config for 20 epochs on The Office…
+  epoch 1/20  train=1.8359  val=1.4585  ppl=4.3
+  epoch 2/20  train=1.2913  val=1.3252  ppl=3.8
+  epoch 3/20  train=1.1968  val=1.2750  ppl=3.6
+  epoch 4/20  train=1.1493  val=1.2477  ppl=3.5
+  epoch 5/20  train=1.1138  val=1.2560  ppl=3.5
+  epoch 6/20  train=1.0880  val=1.2481  ppl=3.5
+  epoch 7/20  train=1.0665  val=1.2395  ppl=3.5
+  epoch 8/20  train=1.0487  val=1.2317  ppl=3.4
+  epoch 9/20  train=1.0290  val=1.2305  ppl=3.4
+  epoch 10/20  train=1.0120  val=1.2381  ppl=3.4
+  epoch 11/20  train=0.9985  val=1.2446  ppl=3.5
+  epoch 12/20  train=0.9846  val=1.2507  ppl=3.5
+  epoch 13/20  train=0.9711  val=1.2405  ppl=3.5
+  epoch 14/20  train=0.9570  val=1.2565  ppl=3.5
+  epoch 15/20  train=0.9443  val=1.2717  ppl=3.6
+  epoch 16/20  train=0.9327  val=1.2718  ppl=3.6
+  epoch 17/20  train=0.9202  val=1.2758  ppl=3.6
+  epoch 18/20  train=0.9075  val=1.2957  ppl=3.7
+  epoch 19/20  train=0.8971  val=1.3081  ppl=3.7
+  epoch 20/20  train=0.8860  val=1.3134  ppl=3.7
+
+Done! Results saved to results/experiment_results.csv
