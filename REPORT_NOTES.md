@@ -23,6 +23,39 @@ feudal vocabulary for GoT, and the awkward modern office humor register for The 
 
 ---
 
+## ── REPORT STRUCTURE WITH FIGURE PLACEMENTS ──────────────────────────────
+
+```
+[ABSTRACT]
+
+[INTRODUCTION]
+  • No figures needed here
+
+[METHOD]
+  • Figure 1: Architecture diagram (draw manually or use the ASCII below)
+
+[EXPERIMENTS]
+  • Table 1: Dataset statistics
+  • Table 2: Baseline epoch-by-epoch results (GoT + Office, or just final row summary)
+  • Figure 2: Loss curves  ← results/loss_curve_game_of_thrones.png
+  • Figure 3: Loss curves  ← results/loss_curve_the_office.png
+    (or combine into one 2-panel figure)
+  • Table 3: Hyperparameter sweep summary (the 6-factor table)
+  • Table 4: Top 5 configurations
+  • Figure 4: Heatmap hidden × layers  ← results/experiment_heatmap.png
+  • Figure 5: Optimizer bar chart      ← results/experiment_bar_optimizer.png
+  • Figure 6: LR line chart            ← results/experiment_lr_comparison.png
+  • Figure 7: Dropout bar chart        ← results/experiment_bar_dropout.png
+  • Table 5: Cross-dataset comparison
+  • Figure 8 (optional): Generated text samples side-by-side as a styled code block
+
+[CONCLUSION]
+
+[REFERENCES]
+```
+
+---
+
 ## Introduction (write ~300 words using these talking points)
 
 - Karpathy (2015) "The Unreasonable Effectiveness of Recurrent Neural Networks" — char-RNNs
@@ -42,6 +75,10 @@ feudal vocabulary for GoT, and the awkward modern office humor register for The 
 ## Method (~300 words)
 
 ### Architecture
+
+<!-- ▶ FIGURE 1: Place the architecture diagram here.
+     Either redraw the ASCII below as a clean box diagram in your doc,
+     or use a tool like draw.io / Google Slides and export as PNG. -->
 
 ```
 Input character index
@@ -102,12 +139,17 @@ character-level dialogue patterns. GoT has 73 episodes; The Office has 186 episo
 
 ### Dataset statistics
 
+<!-- ▶ TABLE 1: Dataset statistics — paste directly into report -->
+
 | Dataset | Episodes | Lines | Characters | Vocab size |
 |---|---|---|---|---|
 | Game of Thrones | 73 | 23,907 | 1,830,518 | 93 |
 | The Office | 186 | 54,756 | 3,465,832 | 97 |
 
 ### Baseline training results (20 epochs, hidden=256, layers=2, dropout=0.3, lr=1e-3, adam)
+
+<!-- ▶ TABLE 2: You can either include the full epoch table below, or just the
+     first/last few rows with "..." in between to save space. One page max. -->
 
 #### Game of Thrones — epoch-by-epoch
 
@@ -159,6 +201,14 @@ character-level dialogue patterns. GoT has 73 episodes; The Office has 186 episo
 | 19 | 1.290 | **1.337** | 3.63  | **3.81** |
 | 20 | 1.289 | 1.344 | 3.63  | 3.83 |
 
+<!-- ▶ FIGURE 2: Insert results/loss_curve_game_of_thrones.png here
+     Caption: "Figure 2. Training and validation loss (left) and perplexity (right)
+     for the Game of Thrones model over 20 epochs." -->
+
+<!-- ▶ FIGURE 3: Insert results/loss_curve_the_office.png here
+     Caption: "Figure 3. Training and validation loss (left) and perplexity (right)
+     for The Office model over 20 epochs." -->
+
 ### Key observations from training curves
 
 - Both models converge smoothly with no signs of divergence or exploding gradients
@@ -172,6 +222,8 @@ character-level dialogue patterns. GoT has 73 episodes; The Office has 186 episo
 
 ### Hyperparameter sweep results (216 configurations, 5 epochs each on GoT)
 
+<!-- ▶ TABLE 3: Summary table by factor — paste directly into report -->
+
 #### Summary table by factor
 
 | Factor | Values | Avg Val PPL | Winner |
@@ -183,6 +235,8 @@ character-level dialogue patterns. GoT has 73 episodes; The Office has 186 episo
 | Learning rate | 1e-4 / 5e-4 / 1e-3 | 48.1 / 33.5 / 23.4 | **1e-3** |
 | Seq length | 100 / 200 | — | **100** (at 5 epochs) |
 
+<!-- ▶ TABLE 4: Top 5 configurations — paste directly into report -->
+
 #### Top 5 configurations
 
 | hidden | layers | dropout | lr | seq_len | optimizer | val_ppl |
@@ -192,6 +246,22 @@ character-level dialogue patterns. GoT has 73 episodes; The Office has 186 episo
 | 512 | 2 | 0.3 | 0.001 | 100 | adam | 3.19 |
 | 512 | 1 | 0.3 | 0.001 | 100 | adam | 3.26 |
 | 512 | 1 | 0.0 | 0.001 | 100 | adam | 3.33 |
+
+<!-- ▶ FIGURE 4: Insert results/experiment_heatmap.png here
+     Caption: "Figure 4. Validation perplexity (avg over all other hyperparameters)
+     as a function of hidden size and number of LSTM layers. Darker = better." -->
+
+<!-- ▶ FIGURE 5: Insert results/experiment_bar_optimizer.png here
+     Caption: "Figure 5. Average validation perplexity by optimizer.
+     Adam dramatically outperforms SGD across all configurations." -->
+
+<!-- ▶ FIGURE 6: Insert results/experiment_lr_comparison.png here
+     Caption: "Figure 6. Average validation perplexity as a function of learning rate.
+     Higher learning rates converge faster within the 5-epoch sweep budget." -->
+
+<!-- ▶ FIGURE 7: Insert results/experiment_bar_dropout.png here
+     Caption: "Figure 7. Average validation perplexity by dropout rate.
+     Dropout=0.3 achieves marginally the best regularization." -->
 
 #### Interpretation of each finding
 
@@ -216,6 +286,8 @@ With more epochs, lower lr configs would likely catch up.
 
 ### Cross-dataset comparison
 
+<!-- ▶ TABLE 5: Cross-dataset comparison — paste directly into report -->
+
 | Metric | Game of Thrones | The Office |
 |---|---|---|
 | Dataset size (chars) | 1,830,518 | 3,465,832 |
@@ -225,6 +297,10 @@ With more epochs, lower lr configs would likely catch up.
 | Epochs to converge | ~20+ (still improving) | ~17 |
 
 ### Qualitative samples
+
+<!-- ▶ FIGURE 8: Format the two generated text blocks below as side-by-side
+     code boxes in your report (one column GoT, one column The Office).
+     Or place them sequentially with the episode-header sample as Figure 9. -->
 
 **GoT — character seed** (seed: `TYRION:\n`, τ=0.8):
 ```
